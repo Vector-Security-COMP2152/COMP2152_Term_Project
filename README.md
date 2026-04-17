@@ -2,13 +2,13 @@
 
 ## Team Name
 <!-- Replace with your team name -->
-Team _______
+Team __Vector Security_____
 
 ## Team Members
 
 | Member | Vulnerability Found | Branch Name |
 |--------|-------------------|-------------|
-| _______ | _______ | _______ |
+| 101577629| Telnet Exposed on Port 2323 | tommy_telnet_vulnerability|
 | _______ | _______ | _______ |
 | _______ | _______ | _______ |
 
