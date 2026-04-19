@@ -1,24 +1,31 @@
 # COMP2152 — Term Project: CTF Bug Bounty
 
 ## Team Name
-<!-- Replace with your team name -->
-Team __Vector Security_____
+Vector Security
 
 ## Team Members
 
-| Member | Vulnerability Found | Branch Name |
-|--------|-------------------|-------------|
-| 101577629| Telnet Exposed on Port 2323 | tommy_telnet_vulnerability|
-| 101466121| Blog over HTTP | hasankhalil_http_vulnerability |
-| _______ | _______ | _______ |
+| Member | Vulnerability | Branch |
+|--------|---------------|--------|
+| Tommy | Telnet exposed on port 2323 | tommy_telnet_vulnerability |
+| Hassan Khalil | Blog served over HTTP | hasankhalil_http_vulnerability |
+| MuksidAlam | Anonymous FTP login on `ftp.0x10.cloud:2121` | muksidalam_anonymous_ftp |
+| MuksidAlam | Unauthenticated Redis access on `redis.0x10.cloud:6379` | muksidalam_redis_noauth |
+| MuksidAlam | Unauthenticated Redis access on `db.0x10.cloud:6379` | muksidalam_redis_noauth |
 
 ## Videos
 
-Each team member records a short video (max 3 minutes) explaining their vulnerability. Add your YouTube links below:
+Each team member records a short video (max 3 minutes) explaining their vulnerability.
 
-- Member 1: https://youtube.com/watch?v=_______
-- Member 2: https://youtube.com/watch?v=_______
-- Member 3: https://youtube.com/watch?v=_______
+- Tommy: https://youtube.com/watch?v=_______
+- Hassan Khalil: https://youtube.com/watch?v=_______
+- MuksidAlam: https://youtube.com/watch?v=_______
+
+## Additional Verified Findings
+
+- MuksidAlam currently has 3 reported issues in this branch.
+- FTP proof script: `muksidalam_anonymous_ftp.py`
+- Redis proof script: `muksidalam_redis_noauth.py`
 
 ## Target
 

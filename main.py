@@ -11,6 +11,8 @@ scripts = [
     "example_http_check.py",
     "example_port_check.py",
     "example_header_check.py",
+    "muksidalam_anonymous_ftp.py",
+    "muksidalam_redis_noauth.py",
 ]
 
 if __name__ == "__main__":
@@ -23,8 +25,11 @@ if __name__ == "__main__":
     print("=" * 50, flush=True)
 
     for script in scripts:
-        print(f"\n>>> Running {script}...\n", flush=True)
         script_path = os.path.join(script_dir, script)
+        if not os.path.exists(script_path):
+            print(f"\n>>> Skipping {script} (file not found)\n", flush=True)
+            continue
+        print(f"\n>>> Running {script}...\n", flush=True)
         subprocess.run([sys.executable, script_path])
 
     print("\n" + "=" * 50)
