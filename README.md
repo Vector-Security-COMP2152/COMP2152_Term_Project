@@ -9,7 +9,7 @@ Team __Vector Security_____
 | Member | Vulnerability Found | Branch Name |
 |--------|-------------------|-------------|
 | 101577629| Telnet Exposed on Port 2323 | tommy_telnet_vulnerability|
-| _______ | _______ | _______ |
+| Hasan Khalil (101466121) | Blog over HTTP (No HTTPS Enforcement) | hasankhalil_http_vulnerability |
 | _______ | _______ | _______ |
 
 ## Videos
