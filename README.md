@@ -1,8 +1,7 @@
 # COMP2152 — Term Project: CTF Bug Bounty
 
 ## Team Name
-<!-- Replace with your team name -->
-Team __Vector Security_____
+Vector Security
 
 ## Team Members
 
@@ -10,15 +9,20 @@ Team __Vector Security_____
 |--------|-------------------|-------------|
 | 101577629| Telnet Exposed on Port 2323 | tommy_telnet_vulnerability|
 | Hasan Khalil (101466121) | Blog over HTTP (No HTTPS Enforcement) | hasankhalil_http_vulnerability |
-| _______ | _______ | _______ |
+| MuksidAlam | Anonymous FTP login on `ftp.0x10.cloud:2121` | muksidalam_anonymous_ftp |
 
 ## Videos
 
-Each team member records a short video (max 3 minutes) explaining their vulnerability. Add your YouTube links below:
+Each team member records a short video (max 3 minutes) explaining their vulnerability.
 
-- Member 1: https://youtube.com/watch?v=_______
-- Member 2: https://youtube.com/watch?v=_______
-- Member 3: https://youtube.com/watch?v=_______
+- Tommy: https://youtube.com/watch?v=_______
+- Hassan Khalil: https://youtube.com/watch?v=_______
+- MuksidAlam: https://youtube.com/watch?v=_______
+
+## Additional Verified Findings
+
+- MuksidAlam currently has 1 reported issue in this branch.
+- FTP proof script: `muksidalam_anonymous_ftp.py`
 
 ## Target
 
