@@ -10,6 +10,7 @@ Vector Security
 | 101577629| Telnet Exposed on Port 2323 | tommy_telnet_vulnerability|
 | Hasan Khalil (101466121) | Blog over HTTP (No HTTPS Enforcement) | hasankhalil_http_vulnerability |
 | MuksidAlam | Anonymous FTP login on `ftp.0x10.cloud:2121` | muksidalam_anonymous_ftp |
+| Samuel Barth | Redis accessible without authentication on `*.0x10.cloud:6379` | samuelbarth_redis_noauth |
 
 ## Videos
 
@@ -18,11 +19,14 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 - Tommy: https://youtube.com/watch?v=_______
 - Hassan Khalil: https://youtube.com/watch?v=_______
 - MuksidAlam: https://youtube.com/watch?v=_______
+- Samuel Barth: https://youtube.com/watch?v=_______
 
 ## Additional Verified Findings
 
 - MuksidAlam currently has 1 reported issue in this branch.
 - FTP proof script: `muksidalam_anonymous_ftp.py`
+- Samuel Barth currently has 1 reported issue in this branch.
+- Redis proof script: `samuelbarth_redis_noauth.py`
 
 ## Target
 

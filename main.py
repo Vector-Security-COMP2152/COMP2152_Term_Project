@@ -13,6 +13,7 @@ scripts = [
     "example_header_check.py",
     "hasankhalil_http_vulnerability.py",
     "muksidalam_anonymous_ftp.py",
+    "samuelbarth_redis_noauth.py",
 ]
 
 if __name__ == "__main__":
