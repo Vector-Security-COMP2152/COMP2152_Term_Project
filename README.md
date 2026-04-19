@@ -17,7 +17,7 @@ Vector Security
 Each team member records a short video (max 3 minutes) explaining their vulnerability.
 
 - Tommy: https://youtube.com/watch?v=_______
-- Hassan Khalil: https://youtube.com/watch?v=_______
+- Hasan Khalil: https://youtu.be/mDOdR-8djvU?si=mNibs3ZO83gncMm1
 - MuksidAlam: https://youtube.com/watch?v=_______
 - Samuel Barth: https://youtube.com/watch?v=_______
 
