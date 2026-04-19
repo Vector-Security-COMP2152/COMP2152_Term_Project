@@ -12,7 +12,6 @@ scripts = [
     "example_port_check.py",
     "example_header_check.py",
     "muksidalam_anonymous_ftp.py",
-    "muksidalam_redis_noauth.py",
 ]
 
 if __name__ == "__main__":
