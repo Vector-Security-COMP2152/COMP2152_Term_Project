@@ -17,7 +17,7 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 
 - Tommy: https://youtube.com/watch?v=_______
 - Hassan Khalil: https://youtube.com/watch?v=_______
-- MuksidAlam: https://youtube.com/watch?v=_______
+- MuksidAlam: https://youtu.be/EvmPWaq7yBI
 
 ## Additional Verified Findings
 
